@@ -1,0 +1,162 @@
+:root{
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --primary-bgd-color: #ffffff;
+  --accent-color: #404bbf;
+  --second-text-color: #f4f4fd;
+  --button-color: #4d5ae5;
+  --second-bgd-color: #e5e5e5;
+}
+
+.list{
+
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--primary-bgd-color);
+}
+/* ===COMPONENTS=== */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-color);
+}
+.logo-navy{
+    color: var(--title-text-color);
+}
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.description-theme-dark {
+    color: var(--second-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+    text-align: center;
+}
+/* ===/COMPONENTS=== */
+/* ===HEADER=== */
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.addres-info{
+    font-style: normal;
+}
+
+.link-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.link-info:hover,
+.link-info:focus {
+    color: var(--accent-color);
+}
+/* ===/HEADER=== */
+/* ===HERO=== */
+.hero{
+    background-color: var(--title-text-color);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--primary-bgd-color);
+}
+
+.modal-btn {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-bgd-color);
+    background-color: var(--button-color);
+    cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--accent-color);
+}
+/* ===/HERO=== */
+/* ===MAIN=== */
+.filter-btn{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+    background: var(--second-text-color);
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--primary-bgd-color);
+    background: var(--accent-color);
+}
+.team{
+    background-color: var(--second-text-color);
+}
+.team-list{
+   background-color: var(--primary-bgd-color); 
+}
+.main-portfolio{
+    background-color: var(--second-bgd-color);
+}
+.card{
+    background-color: var(--primary-bgd-color);
+}
+/* ===/MAIN=== */
+/* ===FOOTER=== */
+   .pace-footer{
+    background-color: var(--title-text-color);
+   }
+   .logo-white{
+    color: var(--second-text-color);
+   }
+/* ===/FOOTER=== */
